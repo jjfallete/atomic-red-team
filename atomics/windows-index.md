@@ -253,6 +253,8 @@
   - Atomic Test #3: Windows Credential Editor [windows]
   - Atomic Test #4: Registry dump of SAM, creds, and secrets [windows]
 - [T1081 Credentials in Files](./T1081/T1081.md)
+  - Atomic Test #3: Mimikatz & Kittenz [windows]
+  - Atomic Test #4: Extracting credentials from files [windows]
 - T1214 Credentials in Registry [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1212 Exploitation for Credential Access [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1187 Forced Authentication [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
@@ -262,7 +264,9 @@
   - Atomic Test #1: Input Capture [windows]
 - T1208 Kerberoasting [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1171 LLMNR/NBT-NS Poisoning [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
-- T1040 Network Sniffing [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1040 Network Sniffing](./T1040/T1040.md)
+  - Atomic Test #3: Packet Capture Windows Command Prompt [windows]
+  - Atomic Test #4: Packet Capture PowerShell [windows]
 - T1174 Password Filter DLL [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - [T1145 Private Keys](./T1145/T1145.md)
   - Atomic Test #1: Private Keys [windows]
@@ -288,7 +292,8 @@
 - T1080 Taint Shared Content [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1072 Third-party Software [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - [T1077 Windows Admin Shares](./T1077/T1077.md)
-  - Atomic Test #1: TODO [windows]
+  - Atomic Test #1: Map admin share [windows]
+  - Atomic Test #2: Map Admin Share PowerShell [windows]
 - [T1028 Windows Remote Management](./T1028/T1028.md)
   - Atomic Test #1: Enable Windows Remote Management [windows]
   - Atomic Test #2: PowerShell Lateral Movement [windows]
@@ -407,7 +412,8 @@
 - T1071 Standard Application Layer Protocol [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1032 Standard Cryptographic Protocol [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1095 Standard Non-Application Layer Protocol [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
-- T1065 Uncommonly Used Port [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1065 Uncommonly Used Port](./T1065/T1065.md)
+  - Atomic Test #1: Testing usage of uncommonly used port with PowerShell [windows]
 - T1102 Web Service [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 
 # initial-access
