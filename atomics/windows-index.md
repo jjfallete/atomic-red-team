@@ -35,6 +35,8 @@
   - Atomic Test #13: wbadmin [windows]
 - T1006 File System Logical Offsets [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - [T1158 Hidden Files and Directories](./T1158/T1158.md)
+  - Atomic Test #9: Create ADS command prompt [windows]
+  - Atomic Test #10: Create ADS PowerShell [windows]
 - [T1183 Image File Execution Options Injection](./T1183/T1183.md)
   - Atomic Test #1: IFEO Add Debugger [windows]
   - Atomic Test #2: IFEO GLobal Flags [windows]
@@ -162,6 +164,8 @@
 - T1133 External Remote Services [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1044 File System Permissions Weakness [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - [T1158 Hidden Files and Directories](./T1158/T1158.md)
+  - Atomic Test #9: Create ADS command prompt [windows]
+  - Atomic Test #10: Create ADS PowerShell [windows]
 - [T1179 Hooking](./T1179/T1179.md)
   - Atomic Test #1: Hook PowerShell TLS Encrypt/Decrypt Messages [windows]
 - T1062 Hypervisor [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
@@ -215,9 +219,12 @@
 - T1217 Browser Bookmark Discovery [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - [T1083 File and Directory Discovery](./T1083/T1083.md)
   - Atomic Test #1: File and Directory Discovery [windows]
+  - Atomic Test #2: File and Directory Discovery [windows]
 - [T1046 Network Service Scanning](./T1046/T1046.md)
 - [T1135 Network Share Discovery](./T1135/T1135.md)
-- T1201 Password Policy Discovery [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+  - Atomic Test #2: Network Share Discovery command prompt [windows]
+  - Atomic Test #3: Network Share Discovery PowerShell [windows]
+- [T1201 Password Policy Discovery](./T1201/T1201.md)
 - T1120 Peripheral Device Discovery [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - [T1069 Permission Groups Discovery](./T1069/T1069.md)
 - [T1057 Process Discovery](./T1057/T1057.md)

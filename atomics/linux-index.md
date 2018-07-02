@@ -35,11 +35,15 @@
   - Atomic Test #6: Enumerate Groups and users [linux, macos]
 - T1217 Browser Bookmark Discovery [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - [T1083 File and Directory Discovery](./T1083/T1083.md)
-  - Atomic Test #2: nix file and diectory discovery [macos, linux]
-  - Atomic Test #3: nix file and diectory discovery [macos, linux]
+  - Atomic Test #3: Nix File and Diectory Discovery [macos, linux]
+  - Atomic Test #4: Nix File and Directory Discovery [macos, linux]
 - [T1046 Network Service Scanning](./T1046/T1046.md)
   - Atomic Test #1: Scan a bunch of ports to see if they are open [linux, macos]
-- T1201 Password Policy Discovery [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1201 Password Policy Discovery](./T1201/T1201.md)
+  - Atomic Test #1: Examine password complexity policy - Ubuntu [ubuntu]
+  - Atomic Test #2: Examine password complexity policy - CentOS/RHEL 7.x [centos]
+  - Atomic Test #3: Examine password complexity policy - CentOS/RHEL 6.x [centos]
+  - Atomic Test #4: Examine password expiration policy - All Linux [linux]
 - [T1069 Permission Groups Discovery](./T1069/T1069.md)
   - Atomic Test #1: Permission Groups Discovery [macos, linux]
 - [T1057 Process Discovery](./T1057/T1057.md)
@@ -130,6 +134,8 @@
   - Atomic Test #3: Delete an entire folder [linux]
   - Atomic Test #4: Overwrite and delete a file with shred [linux]
 - [T1148 HISTCONTROL](./T1148/T1148.md)
+  - Atomic Test #1: Disable history collection [linux, macos]
+  - Atomic Test #2: Mac HISTCONTROL [macos, linux]
 - [T1158 Hidden Files and Directories](./T1158/T1158.md)
   - Atomic Test #1: Create a hidden file in a hidden directory [linux, macos]
   - Atomic Test #3: Hidden file [macos, linux]

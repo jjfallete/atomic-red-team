@@ -47,6 +47,8 @@
   - Atomic Test #6: Show all hidden files [macos]
   - Atomic Test #7: Create visible Directories [macos, linux]
   - Atomic Test #8: Create hidden directories and files [macos, linux]
+  - Atomic Test #9: Create ADS command prompt [windows]
+  - Atomic Test #10: Create ADS PowerShell [windows]
 - [T1179 Hooking](./T1179/T1179.md)
   - Atomic Test #1: Hook PowerShell TLS Encrypt/Decrypt Messages [windows]
 - T1062 Hypervisor [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
@@ -171,6 +173,8 @@
 - [T1144 Gatekeeper Bypass](./T1144/T1144.md)
   - Atomic Test #1: Gatekeeper Bypass [macos]
 - [T1148 HISTCONTROL](./T1148/T1148.md)
+  - Atomic Test #1: Disable history collection [linux, macos]
+  - Atomic Test #2: Mac HISTCONTROL [macos, linux]
 - [T1158 Hidden Files and Directories](./T1158/T1158.md)
   - Atomic Test #1: Create a hidden file in a hidden directory [linux, macos]
   - Atomic Test #2: Mac Hidden file [macos]
@@ -180,6 +184,8 @@
   - Atomic Test #6: Show all hidden files [macos]
   - Atomic Test #7: Create visible Directories [macos, linux]
   - Atomic Test #8: Create hidden directories and files [macos, linux]
+  - Atomic Test #9: Create ADS command prompt [windows]
+  - Atomic Test #10: Create ADS PowerShell [windows]
 - [T1147 Hidden Users](./T1147/T1147.md)
   - Atomic Test #1: Hidden Users [macos]
 - T1143 Hidden Window [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
@@ -318,13 +324,20 @@
 - T1217 Browser Bookmark Discovery [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - [T1083 File and Directory Discovery](./T1083/T1083.md)
   - Atomic Test #1: File and Directory Discovery [windows]
-  - Atomic Test #2: nix file and diectory discovery [macos, linux]
-  - Atomic Test #3: nix file and diectory discovery [macos, linux]
+  - Atomic Test #2: File and Directory Discovery [windows]
+  - Atomic Test #3: Nix File and Diectory Discovery [macos, linux]
+  - Atomic Test #4: Nix File and Directory Discovery [macos, linux]
 - [T1046 Network Service Scanning](./T1046/T1046.md)
   - Atomic Test #1: Scan a bunch of ports to see if they are open [linux, macos]
 - [T1135 Network Share Discovery](./T1135/T1135.md)
   - Atomic Test #1: Network Share Discovery [macos, linux]
-- T1201 Password Policy Discovery [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+  - Atomic Test #2: Network Share Discovery command prompt [windows]
+  - Atomic Test #3: Network Share Discovery PowerShell [windows]
+- [T1201 Password Policy Discovery](./T1201/T1201.md)
+  - Atomic Test #1: Examine password complexity policy - Ubuntu [ubuntu]
+  - Atomic Test #2: Examine password complexity policy - CentOS/RHEL 7.x [centos]
+  - Atomic Test #3: Examine password complexity policy - CentOS/RHEL 6.x [centos]
+  - Atomic Test #4: Examine password expiration policy - All Linux [linux]
 - T1120 Peripheral Device Discovery [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - [T1069 Permission Groups Discovery](./T1069/T1069.md)
   - Atomic Test #1: Permission Groups Discovery [macos, linux]
