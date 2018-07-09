@@ -38,7 +38,8 @@
   - Atomic Test #3: Nix File and Diectory Discovery [macos, linux]
   - Atomic Test #4: Nix File and Directory Discovery [macos, linux]
 - [T1046 Network Service Scanning](./T1046/T1046.md)
-  - Atomic Test #1: Scan a bunch of ports to see if they are open [linux, macos]
+  - Atomic Test #1: Port Scan [linux, macos]
+  - Atomic Test #2: Port Scan Nmap [linux, macos]
 - [T1201 Password Policy Discovery](./T1201/T1201.md)
   - Atomic Test #1: Examine password complexity policy - Ubuntu [ubuntu]
   - Atomic Test #2: Examine password complexity policy - CentOS/RHEL 7.x [centos]
@@ -56,7 +57,8 @@
   - Atomic Test #3: List OS Information [linux, macos]
 - [T1016 System Network Configuration Discovery](./T1016/T1016.md)
   - Atomic Test #2: System Network Configuration Discovery [macos, linux]
-- T1049 System Network Connections Discovery [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1049 System Network Connections Discovery](./T1049/T1049.md)
+  - Atomic Test #3: System Network Connections Discovery Linux & MacOS [linux, macos]
 - [T1033 System Owner/User Discovery](./T1033/T1033.md)
   - Atomic Test #2: System Owner/User Discovery [linux, macos]
 
@@ -186,7 +188,8 @@
 - T1090 Connection Proxy [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1094 Custom Command and Control Protocol [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1024 Custom Cryptographic Protocol [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
-- T1132 Data Encoding [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1132 Data Encoding](./T1132/T1132.md)
+  - Atomic Test #1: Base64 Encoded data. [macos, linux]
 - T1001 Data Obfuscation [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1172 Domain Fronting [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1008 Fallback Channels [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
@@ -209,7 +212,7 @@
 - T1189 Drive-by Compromise [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1190 Exploit Public-Facing Application [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1200 Hardware Additions [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
-- T1193 Spearphishing Attachment [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1193 Spearphishing Attachment](./T1193/T1193.md)
 - T1192 Spearphishing Link [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1194 Spearphishing via Service [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1195 Supply Chain Compromise [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
@@ -221,7 +224,8 @@
 - [T1055 Process Injection](./T1055/T1055.md)
 - [T1166 Setuid and Setgid](./T1166/T1166.md)
   - Atomic Test #1: Setuid and Setgid [macos, centos, ubuntu, linux]
-- T1169 Sudo [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1169 Sudo](./T1169/T1169.md)
+  - Atomic Test #1: Sudo usage [macos, linux]
 - T1206 Sudo Caching [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1078 Valid Accounts [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1100 Web Shell [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)

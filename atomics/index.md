@@ -51,7 +51,8 @@
   - Atomic Test #10: Create ADS PowerShell [windows]
 - [T1179 Hooking](./T1179/T1179.md)
   - Atomic Test #1: Hook PowerShell TLS Encrypt/Decrypt Messages [windows]
-- T1062 Hypervisor [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1062 Hypervisor](./T1062/T1062.md)
+  - Atomic Test #1: Installing Hyper-V Feature [windows]
 - [T1183 Image File Execution Options Injection](./T1183/T1183.md)
   - Atomic Test #1: IFEO Add Debugger [windows]
   - Atomic Test #2: IFEO GLobal Flags [windows]
@@ -214,7 +215,9 @@
   - Atomic Test #1: Mshta executes JavaScript Scheme Fetch Remote Payload With GetObject [windows]
 - [T1096 NTFS File Attributes](./T1096/T1096.md)
   - Atomic Test #1: Alternate Data Streams (ADS) [windows]
-- T1126 Network Share Connection Removal [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1126 Network Share Connection Removal](./T1126/T1126.md)
+  - Atomic Test #1: Remove Network Share [windows]
+  - Atomic Test #2: Remove Network Share PowerShell [windows]
 - T1027 Obfuscated Files or Information [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - [T1150 Plist Modification](./T1150/T1150.md)
   - Atomic Test #1: Plist Modification [macos]
@@ -303,7 +306,8 @@
   - Atomic Test #1: Setuid and Setgid [macos, centos, ubuntu, linux]
 - [T1165 Startup Items](./T1165/T1165.md)
   - Atomic Test #1: Startup Items [macos]
-- T1169 Sudo [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1169 Sudo](./T1169/T1169.md)
+  - Atomic Test #1: Sudo usage [macos, linux]
 - T1206 Sudo Caching [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1078 Valid Accounts [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1100 Web Shell [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
@@ -328,7 +332,8 @@
   - Atomic Test #3: Nix File and Diectory Discovery [macos, linux]
   - Atomic Test #4: Nix File and Directory Discovery [macos, linux]
 - [T1046 Network Service Scanning](./T1046/T1046.md)
-  - Atomic Test #1: Scan a bunch of ports to see if they are open [linux, macos]
+  - Atomic Test #1: Port Scan [linux, macos]
+  - Atomic Test #2: Port Scan Nmap [linux, macos]
 - [T1135 Network Share Discovery](./T1135/T1135.md)
   - Atomic Test #1: Network Share Discovery [macos, linux]
   - Atomic Test #2: Network Share Discovery command prompt [windows]
@@ -362,14 +367,18 @@
 - [T1016 System Network Configuration Discovery](./T1016/T1016.md)
   - Atomic Test #1: System Network Configuration Discovery [windows]
   - Atomic Test #2: System Network Configuration Discovery [macos, linux]
-- T1049 System Network Connections Discovery [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1049 System Network Connections Discovery](./T1049/T1049.md)
+  - Atomic Test #1: System Network Connections Discovery [windows]
+  - Atomic Test #2: System Network Connections Discovery with PowerShell [windows]
+  - Atomic Test #3: System Network Connections Discovery Linux & MacOS [linux, macos]
 - [T1033 System Owner/User Discovery](./T1033/T1033.md)
   - Atomic Test #1: System Owner/User Discovery [windows]
   - Atomic Test #2: System Owner/User Discovery [linux, macos]
 - [T1007 System Service Discovery](./T1007/T1007.md)
   - Atomic Test #1: System Service Discovery [windows]
 - [T1124 System Time Discovery](./T1124/T1124.md)
-  - Atomic Test #1: System Time Discovery - PowerShell [windows]
+  - Atomic Test #1: System Time Discovery [windows]
+  - Atomic Test #2: System Time Discovery - PowerShell [windows]
 
 # credential-access
 - [T1098 Account Manipulation](./T1098/T1098.md)
@@ -388,7 +397,8 @@
   - Atomic Test #2: Extract credentials from files [macos, linux]
   - Atomic Test #3: Mimikatz & Kittenz [windows]
   - Atomic Test #4: Extracting credentials from files [windows]
-- T1214 Credentials in Registry [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1214 Credentials in Registry](./T1214/T1214.md)
+  - Atomic Test #1: Enumeration for Credentials in Registry [windows]
 - T1212 Exploitation for Credential Access [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1187 Forced Authentication [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - [T1179 Hooking](./T1179/T1179.md)
@@ -567,7 +577,8 @@
 - T1090 Connection Proxy [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1094 Custom Command and Control Protocol [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1024 Custom Cryptographic Protocol [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
-- T1132 Data Encoding [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1132 Data Encoding](./T1132/T1132.md)
+  - Atomic Test #1: Base64 Encoded data. [macos, linux]
 - T1001 Data Obfuscation [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1172 Domain Fronting [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1008 Fallback Channels [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
@@ -592,7 +603,8 @@
 - T1190 Exploit Public-Facing Application [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1200 Hardware Additions [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1091 Replication Through Removable Media [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
-- T1193 Spearphishing Attachment [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1193 Spearphishing Attachment](./T1193/T1193.md)
+  - Atomic Test #1: Download Spearphishing Attachment [windows]
 - T1192 Spearphishing Link [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1194 Spearphishing via Service [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1195 Supply Chain Compromise [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)

@@ -57,7 +57,9 @@
   - Atomic Test #1: Mshta executes JavaScript Scheme Fetch Remote Payload With GetObject [windows]
 - [T1096 NTFS File Attributes](./T1096/T1096.md)
   - Atomic Test #1: Alternate Data Streams (ADS) [windows]
-- T1126 Network Share Connection Removal [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1126 Network Share Connection Removal](./T1126/T1126.md)
+  - Atomic Test #1: Remove Network Share [windows]
+  - Atomic Test #2: Remove Network Share PowerShell [windows]
 - T1027 Obfuscated Files or Information [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1186 Process Doppelgänging [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1093 Process Hollowing [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
@@ -168,7 +170,8 @@
   - Atomic Test #10: Create ADS PowerShell [windows]
 - [T1179 Hooking](./T1179/T1179.md)
   - Atomic Test #1: Hook PowerShell TLS Encrypt/Decrypt Messages [windows]
-- T1062 Hypervisor [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1062 Hypervisor](./T1062/T1062.md)
+  - Atomic Test #1: Installing Hyper-V Feature [windows]
 - [T1183 Image File Execution Options Injection](./T1183/T1183.md)
   - Atomic Test #1: IFEO Add Debugger [windows]
   - Atomic Test #2: IFEO GLobal Flags [windows]
@@ -241,13 +244,16 @@
   - Atomic Test #1: System Information Discovery [windows]
 - [T1016 System Network Configuration Discovery](./T1016/T1016.md)
   - Atomic Test #1: System Network Configuration Discovery [windows]
-- T1049 System Network Connections Discovery [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1049 System Network Connections Discovery](./T1049/T1049.md)
+  - Atomic Test #1: System Network Connections Discovery [windows]
+  - Atomic Test #2: System Network Connections Discovery with PowerShell [windows]
 - [T1033 System Owner/User Discovery](./T1033/T1033.md)
   - Atomic Test #1: System Owner/User Discovery [windows]
 - [T1007 System Service Discovery](./T1007/T1007.md)
   - Atomic Test #1: System Service Discovery [windows]
 - [T1124 System Time Discovery](./T1124/T1124.md)
-  - Atomic Test #1: System Time Discovery - PowerShell [windows]
+  - Atomic Test #1: System Time Discovery [windows]
+  - Atomic Test #2: System Time Discovery - PowerShell [windows]
 
 # credential-access
 - [T1098 Account Manipulation](./T1098/T1098.md)
@@ -262,7 +268,8 @@
 - [T1081 Credentials in Files](./T1081/T1081.md)
   - Atomic Test #3: Mimikatz & Kittenz [windows]
   - Atomic Test #4: Extracting credentials from files [windows]
-- T1214 Credentials in Registry [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1214 Credentials in Registry](./T1214/T1214.md)
+  - Atomic Test #1: Enumeration for Credentials in Registry [windows]
 - T1212 Exploitation for Credential Access [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1187 Forced Authentication [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - [T1179 Hooking](./T1179/T1179.md)
@@ -406,7 +413,7 @@
 - T1090 Connection Proxy [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1094 Custom Command and Control Protocol [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1024 Custom Cryptographic Protocol [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
-- T1132 Data Encoding [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1132 Data Encoding](./T1132/T1132.md)
 - T1001 Data Obfuscation [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1172 Domain Fronting [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1008 Fallback Channels [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
@@ -428,7 +435,8 @@
 - T1190 Exploit Public-Facing Application [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1200 Hardware Additions [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1091 Replication Through Removable Media [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
-- T1193 Spearphishing Attachment [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
+- [T1193 Spearphishing Attachment](./T1193/T1193.md)
+  - Atomic Test #1: Download Spearphishing Attachment [windows]
 - T1192 Spearphishing Link [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1194 Spearphishing via Service [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
 - T1195 Supply Chain Compromise [CONTRIBUTE A TEST](https://atomicredteam.io/contributing)
