@@ -30,10 +30,10 @@ atomic_tests:
   executor:
     name: powershell
     command: |
-      powershell.exe get-process | ?{$_.Description -like "*virus*"}
-      powershell.exe get-process | ?{$_.Description -like "*carbonblack*"}
-      powershell.exe get-process | ?{$_.Description -like "*defender*"}
-      powershell.exe get-process | ?{$_.Description -like "*cylance*"}
+      get-process | ?{$_.Description -like "*virus*"}
+      get-process | ?{$_.Description -like "*carbonblack*"}
+      get-process | ?{$_.Description -like "*defender*"}
+      get-process | ?{$_.Description -like "*cylance*"}
 
 - name: Security Software Discovery - ps
   description: |
@@ -48,3 +48,15 @@ atomic_tests:
     command: |
       ps -ef | grep Little\ Snitch | grep -v grep
       ps aux | grep CbOsxSensorService
+
+- name: Security Software Discovery - Sysmon Service
+  description: |
+    Discovery of an installed Sysinternals Sysmon service using driver altitude (even if the name is changed).
+
+  supported_platforms:
+    - windows
+
+  executor:
+    name: command_prompt
+    command: |
+      fltmc.exe | findstr.exe 385201

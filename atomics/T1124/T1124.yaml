@@ -19,7 +19,7 @@ atomic_tests:
   executor:
     name: command_prompt
     command: |
-      net time \\${computername}
+      net time \\#{computer_name}
       w32tm /tz
 
 - name: System Time Discovery - PowerShell
@@ -32,4 +32,4 @@ atomic_tests:
   executor:
     name: powershell
     command: |
-      powershell.exe Get-Date
+      Get-Date
